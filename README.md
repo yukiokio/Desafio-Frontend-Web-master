@@ -2,9 +2,13 @@
 
 Estamos muito felizes em saber que você chegou até aqui. Realize o teste com calma, essa é a oportunidade de demonstrar suas habilidades e seus conhecimentos!
 
+## Instruções
+
 Esse teste foi pensando em 3 etapas onde iremos avaliar seu raciocínio lógico, conhecimentos técnicos, padrões de código e arquitetura de software. Você tem total autonomia e liberdade para escolher a stack/tecnologia da sua preferência.
 
 Caso surja alguma dúvida fique à vontade para perguntar ao seu recrutador(a), mas lembre-se, a ideia é avaliar seus conhecimentos, não existe certo ou errado. Fique à vontade para sugerir regras e comportamentos diferentes.
+
+Você deverá criar um fork deste projeto e enviar o link do seu repositório por e-mail no momento da entrega.
 
 **OBS:** Para avaliarmos melhor o seu teste, sugerimos que **não utilize libs de componentes, formulários**, etc, no desenvolvimento dos exercícios. Não se preocupe, o teste é simples e não exigirá muito do seu tempo.
 
@@ -20,7 +24,7 @@ Bora começar com o [primeiro exercício](1-EXERCISE/README.md)?
 
 ## Entrega
 
-Ao finalizar o teste, avise seu recrutador e ele irá marcar uma conversa técnica, onde apresentará os exercícios resolvidos, além de conversar sobre suas experiências.
+Ao finalizar o teste, avise seu recrutador e ele irá marcar uma conversa técnica, onde apresentará os exercícios resolvidos, além de conversar sobre suas experiências. Lembrando que você deve enviar o link do seu repositório por e-mail.
 
 Além disso, se tiver projetos ou artigos publicados, coloque no markdown [delivery](DELIVERY.md), isso pode contar pontos na sua avaliação.
 
