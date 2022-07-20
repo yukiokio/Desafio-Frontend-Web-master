@@ -1,0 +1,44 @@
+:root {
+  --color-dark-low: rgba(0,0,0,0.44);
+  --color-dark-medium: rgba(0,0,0,0.6);
+  --color-dark-high: rgba(0,0,0,0.8);
+  --color-accent: #e63888;
+  --color-light-solid: #fff;
+  --color-light-high: rgba(255,255,255,0.8);
+  --color-background-default: #fff;
+  --color-background-light: #97a3b3ff;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.dark-low-color {
+  color: var(--color-dark-low);
+}
+.dark-medium-color {
+  color: var(--color-dark-medium);
+}
+.dark-high-color {
+  color: var(--color-dark-high);
+}
+.accent-color {
+  color: var(--color-accent);
+}
+.light-solid-color {
+  color: var(--color-light-solid);
+  background-color: var(--color-background-light);
+}
+.light-high-color {
+  color: var(--color-light-high);
+  background-color: var(--color-background-light);
+}
