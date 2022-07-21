@@ -1,0 +1,9 @@
+.Content {
+    width: 100%;
+    min-height: 75vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}

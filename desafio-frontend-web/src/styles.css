@@ -5,7 +5,8 @@
   --color-accent: #e63888;
   --color-light-solid: #fff;
   --color-light-high: rgba(255,255,255,0.8);
-  --color-background-default: #fff;
+  --color-background-default: #f6f7f9;
+  --color-background-white: #fff;
   --color-background-light: #97a3b3ff;
 }
 
@@ -37,9 +38,15 @@ code {
 }
 .light-solid-color {
   color: var(--color-light-solid);
-  background-color: var(--color-background-light);
 }
 .light-high-color {
+  color: var(--color-light-high);
+}
+.light-solid-bg-color {
+  color: var(--color-light-solid);
+  background-color: var(--color-background-light);
+}
+.light-high-bg-color {
   color: var(--color-light-high);
   background-color: var(--color-background-light);
 }

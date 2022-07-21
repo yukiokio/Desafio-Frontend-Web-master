@@ -83,7 +83,7 @@ Todos os componentes de texto permitem a escolha da cor da fonte através do atr
 
 Importante notar que em alguns casos específicos a cor de fundo do elemento textual também é modificada do padrão `#fff` para favorecer o contraste do texto.
 
-Além dessa propriedade, o elemento `<BodyM>` possui a propriedade `bold`, que por padrão possui valor `false` e indica se o texto passado ao elemento será exibido em **negrito**.
+Além de `color`, o elemento `<BodyM>` possui a propriedade `bold`, que por padrão possui valor `false` e indica se o texto passado ao elemento será exibido em **negrito**.
 
 
 ---
@@ -112,9 +112,17 @@ Além dessa propriedade, o elemento `<BodyM>` possui a propriedade `bold`, que p
     ```
 -  `light-solid:` 
     ``` css
+    color: #fff;
+    ```
+-  `light-solid-bg:` 
+    ``` css
     color: #fff; background-color: #97a3b3ff;
     ```
--  `light-high: `
+-  `light-high:`
+    ``` css
+    color: rgba(255,255,255,0.8);
+    ```
+-  `light-high-bg:`
     ``` css
     color: rgba(255,255,255,0.8); background-color: #97a3b3ff;
     ```
@@ -140,9 +148,11 @@ function App() {
       <Display color="accent">Display</Display>
       <HeadingL color="dark-low">HeadingL</HeadingL>
       <HeadingM color="light-solid">HeadingM</HeadingM>
+      <HeadingM color="light-solid-bg">HeadingM</HeadingM>
       <HeadingS>HeadingS</HeadingS>
       <HeadingXS color="dark-high">HeadingXS</HeadingXS>
       <Subheading color="light-high">Subheading</Subheading>
+      <Subheading color="light-high-bg">Subheading</Subheading>
       <BodyM color="dark-medium" bold>BodyM bold</BodyM>
       <BodyM color="accent" >BodyM</BodyM>
     </div>
