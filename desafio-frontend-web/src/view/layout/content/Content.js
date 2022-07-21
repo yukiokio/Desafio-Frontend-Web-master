@@ -8,7 +8,7 @@ function Content({children}) {
 }
 
 Content.propTypes = {
-    children: PropTypes.element
+    children: PropTypes.node
 }
 
 export default Content;

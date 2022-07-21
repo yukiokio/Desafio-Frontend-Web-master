@@ -8,7 +8,7 @@ function Display({children, color}){
 }
 
 Display.propTypes = {
-    children: PropTypes.string,
+    children: PropTypes.node,
     color: PropTypes.string
 }
 

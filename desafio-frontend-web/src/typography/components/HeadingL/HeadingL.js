@@ -9,7 +9,7 @@ function HeadingL({children, color}){
 }
 
 HeadingL.propTypes = {
-    children: PropTypes.string,
+    children: PropTypes.node,
     color: PropTypes.string
 }
 

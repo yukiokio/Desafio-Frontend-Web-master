@@ -9,7 +9,7 @@ function BodyM({children, color, bold}){
 }
 
 BodyM.propTypes = {
-    children: PropTypes.string,
+    children: PropTypes.node,
     color: PropTypes.string,
     bold: PropTypes.bool
 }

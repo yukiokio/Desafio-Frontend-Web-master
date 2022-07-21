@@ -9,7 +9,7 @@ function Subheading({children, color}){
 }
 
 Subheading.propTypes = {
-    children: PropTypes.string,
+    children: PropTypes.node,
     color: PropTypes.string
 }
 

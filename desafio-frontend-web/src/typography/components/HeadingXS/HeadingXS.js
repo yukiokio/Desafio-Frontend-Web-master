@@ -8,7 +8,7 @@ function HeadingXS({children, color}){
 }
 
 HeadingXS.propTypes = {
-    children: PropTypes.string,
+    children: PropTypes.node,
     color: PropTypes.string
 }
 
