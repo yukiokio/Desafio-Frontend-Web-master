@@ -1,5 +1,5 @@
 import React from "react";
-import { BodyMedium, Heading } from "../../../Typography";
+import { Heading } from "../../../Typography";
 import * as S from "./styles";
 
 interface ProcessingProps {
@@ -7,7 +7,7 @@ interface ProcessingProps {
   stars?: any;
 }
 
-const Processing: React.FC<ProcessingProps> = ({ success = false, stars }) => {
+const Processing: React.FC<ProcessingProps> = ({ success = false }) => {
   return (
     <S.Overlay>
       <S.Content>

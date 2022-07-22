@@ -49,8 +49,8 @@ const Feedback: React.FC = () => {
 
   return (
     <S.Container>
-      <S.Background />
-      <S.Content>
+      <S.Background title="Background da página em na cor magento." />
+      <S.Content title="Modal onde há um formulário para avaliar o serviço.">
         {modal && <Modal setModal={setModal} stars={starsOnDB} />}
         {success && <Processing success={true} />}
         {loading && <Processing />}
@@ -66,25 +66,43 @@ const Feedback: React.FC = () => {
           ></StarRating>
         </S.RatingContainer>
 
-        <Form onSubmit={handleSubmit}>
+        <Form
+          onSubmit={handleSubmit}
+          title="Furmulário com o logotipo da Serasa, dois campos de texto e botões, onde você preenche os dados para avaliar os serviços."
+        >
           <Input
             required
             ref={nameInputRef}
             type="text"
-            alt="name input text"
-            title="Seu nome"
+            alt="input de texto"
+            title="Caixa de texto para inserir seu nome."
             name="Name"
           >
             Digite seu nome*
           </Input>
-          <TextArea ref={commentInputRef} name="Comment">
+          <TextArea
+            ref={commentInputRef}
+            title="Caixa de texto para inserir seu comentário sobre a avaliação."
+            name="Comment"
+          >
             Comentários (opcional)
           </TextArea>
-          <Button type="submit" tabIndex={0}>
+          <Button
+            type="submit"
+            tabIndex={0}
+            title="Botão para enviar o formulário preenchido."
+          >
             Enviar avaliação
           </Button>
         </Form>
-        {allowOpenModal && <Button onClick={() => setModal(true)}>Ver votações</Button>}
+        {allowOpenModal && (
+          <Button
+            onClick={() => setModal(true)}
+            title="Botão para exibir Modal com as informações das avaliações realizadas."
+          >
+            Ver votações
+          </Button>
+        )}
       </S.Content>
     </S.Container>
   );
