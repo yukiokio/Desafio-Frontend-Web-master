@@ -1,8 +1,8 @@
-import Button from "../components/Forms/Button";
+import Input from "../components/Forms/Input";
 
 export default {
-  title: "Button",
-  component: Button,
+  title: "Input",
+  component: Input,
 };
 
-export const Primary = () => <Button>Button</Button>;
+export const Primary = () => <Input>Input</Input>;

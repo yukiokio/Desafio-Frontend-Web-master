@@ -1,4 +1,4 @@
-import { Display } from "../components/Typography";
+import Display from "../components/Typography/Display";
 
 export default {
   title: "Display",

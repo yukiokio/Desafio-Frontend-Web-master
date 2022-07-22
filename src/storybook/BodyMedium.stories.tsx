@@ -1,4 +1,4 @@
-import { BodyMedium } from "../components/Typography";
+import BodyMedium from "../components/Typography/BodyMedium";
 
 export default {
   title: "BodyMedium",
