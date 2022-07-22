@@ -3,7 +3,7 @@ import React, {
   ForwardRefRenderFunction,
   forwardRef,
 } from "react";
-import { Heading } from "../../Typography";
+import Heading from "../../Typography/Heading";
 import * as S from "./styles";
 
 interface TextAreaProps extends TextareaHTMLAttributes<HTMLTextAreaElement> {

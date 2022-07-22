@@ -3,7 +3,7 @@ import React, {
   forwardRef,
   InputHTMLAttributes,
 } from "react";
-import { Heading } from "../../Typography";
+import Heading from "../../Typography/Heading";
 import * as S from "./styles";
 
 interface InputProps extends InputHTMLAttributes<HTMLInputElement> {

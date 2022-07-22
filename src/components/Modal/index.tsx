@@ -1,6 +1,7 @@
 import React, { SetStateAction } from "react";
 import * as S from "./styles";
-import { BodyMedium, Heading } from "../Typography";
+import Heading from ".././Typography/Heading";
+import BodyMedium from ".././Typography/BodyMedium";
 import { Button } from "../Forms";
 
 interface ModalProps {

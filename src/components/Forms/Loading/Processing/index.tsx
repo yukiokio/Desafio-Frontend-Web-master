@@ -1,5 +1,5 @@
 import React from "react";
-import { Heading } from "../../../Typography";
+import Heading from "../../../Typography/Heading";
 import * as S from "./styles";
 
 interface ProcessingProps {

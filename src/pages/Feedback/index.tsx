@@ -1,5 +1,5 @@
 import React, { useRef, useState } from "react";
-import { Heading } from "../../components/Typography";
+import Heading from "../../components/Typography/Heading";
 import {
   Form,
   StarRating,
