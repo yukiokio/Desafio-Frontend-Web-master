@@ -1,4 +1,0 @@
-// Just to ensure the default formatter for development team. :)
-{
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-}
