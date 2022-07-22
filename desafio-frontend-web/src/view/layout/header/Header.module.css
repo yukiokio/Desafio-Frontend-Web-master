@@ -5,3 +5,7 @@
     position: sticky;
     top: 0;
 }
+
+.Header_logo {
+    max-height: 50px;
+}

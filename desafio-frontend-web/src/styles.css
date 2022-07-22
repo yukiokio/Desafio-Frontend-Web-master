@@ -5,9 +5,13 @@
   --color-accent: #e63888;
   --color-light-solid: #fff;
   --color-light-high: rgba(255,255,255,0.8);
+  
+  --color-background-error: #FFC107e8;
+  --color-background-success: #198754e8;
+  --color-background-loading: #97a3b3e8;
   --color-background-default: #f6f7f9;
   --color-background-white: #fff;
-  --color-background-light: #97a3b3ff;
+  --color-background-light: rgb(151, 163, 179);
   
   --font-family: 'Roboto', sans-serif;
   --font-weight: 400;
@@ -24,7 +28,7 @@ body {
   background-color: var(--color-background-default);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  word-break: break-all;
+  word-break: break-word;
 }
 
 code {

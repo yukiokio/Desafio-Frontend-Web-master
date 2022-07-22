@@ -15,6 +15,7 @@
   .Card {
     min-height: 200px;
     min-width: calc(100vw - 50px);
+    max-width: calc(100vw - var(--units-content-padding-lateral));
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
