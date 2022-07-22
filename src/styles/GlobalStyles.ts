@@ -1,12 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyles = createGlobalStyle`
-:root {
-    --white: #fff;
-    --black: #000;
-    --gray: #7f7f7f;
-    --blue: #057dcd;
-  }
   *,
   *::before,
   *::after {
@@ -21,24 +15,22 @@ export const GlobalStyles = createGlobalStyle`
   }
   html {
     scrollbar-width: thin;
-    scrollbar-color: var(--black);
+    color: ${props => props.theme.colors["dark-high"]};
   }
   body {
     margin: 0 auto;
     font-family: "Roboto", sans-serif;
-    background-color: var(--white);
-    color: var(--black);
-    max-width: var(--max-width);
+    background-color: #fff;
+    color: ${props => props.theme.colors["dark-high"]};
   }
   ul, li, ol {
     list-style: none;
   }
   a {
     text-decoration: none;
-    color: var(--black);
-    transition: var(--transition);
+    color: ${props => props.theme.colors["dark-high"]};
+    transition: 0.2s;
     :hover {
-      color: var(--blue)
     }
   }
   button {
@@ -57,8 +49,7 @@ export const GlobalStyles = createGlobalStyle`
       height: 2px;
       border-radius: 1px;
       width: 0px;
-      background-color: var(--blue);
-      transition: var(--transition);
+      transition: 0.2s;
     }
   }
 `;

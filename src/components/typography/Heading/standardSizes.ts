@@ -31,4 +31,12 @@ export const StandardSizes = {
     mobileLineHeight: "22px",
     letterSpacing: 0,
   },
+  SH: {
+    level: 6,
+    fontSize: "1rem",
+    mobileFontSize: "1rem",
+    lineHeight: "20px",
+    mobileLineHeight: "20px",
+    letterSpacing: 0,
+  },
 };

@@ -1,12 +1,12 @@
 import React from "react";
-import { H1 } from "./styles";
+import * as S from "./styles";
 
-interface IDisplayProps {
+interface DisplayProps {
   children: React.ReactNode;
-};
+}
 
-const Display: React.FC<IDisplayProps> = ({ children }) => {
-  return <H1>{children}</H1>;
-};
+const Display: React.FC<DisplayProps> = ({ children }) => (
+  <S.H1>{children}</S.H1>
+);
 
 export default Display;
