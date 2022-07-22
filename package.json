@@ -1,7 +1,7 @@
 {
   "name": "serasa-desafio-frontend-web",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
   "scripts": {
     "dev": "vite --host --port 3000",
     "build": "tsc && vite build",
