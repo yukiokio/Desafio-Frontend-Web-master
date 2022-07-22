@@ -1,6 +1,7 @@
 import React, { SetStateAction } from "react";
 import * as S from "./styles";
-import { BodyMedium, Heading } from "../Typography";
+import Heading from ".././Typography/Heading";
+import BodyMedium from ".././Typography/BodyMedium";
 import { Button } from "../Forms";
 
 interface ModalProps {
@@ -22,7 +23,12 @@ const Modal: React.FC<ModalProps> = ({ setModal, stars }) => {
           <BodyMedium>3 estrela(s): {stars.three} </BodyMedium>
           <BodyMedium>4 estrela(s): {stars.four} </BodyMedium>
           <BodyMedium>5 estrela(s): {stars.five} </BodyMedium>
-          <Button onClick={() => setModal(false)}>Fechar</Button>
+          <Button
+            onClick={() => setModal(false)}
+            title="Botão fechar o Modal."
+          >
+            Fechar
+          </Button>
         </S.Votes>
       </S.Content>
     </S.Overlay>

@@ -1,33 +1,22 @@
-# E aí, vamos ao teste da Serasa?
+<h1 align="center">
+Página de Formulário de Avaliação - Serasa
+</h1>
 
-Estamos muito felizes em saber que você chegou até aqui. Realize o teste com calma, essa é a oportunidade de demonstrar suas habilidades e seus conhecimentos!
+![image](https://user-images.githubusercontent.com/41245525/180574105-ee10c8dd-efce-446f-ab7f-ad775bb76ec5.png)
 
-## Instruções
+# Tecnologias utilizadas:
+ - React;
+ - Typescript;
+ - Styled Components;
+ - Axios;
+ - API/Mock;
 
-Esse teste foi pensando em 3 etapas onde iremos avaliar seu raciocínio lógico, conhecimentos técnicos, padrões de código e arquitetura de software. Você tem total autonomia e liberdade para escolher a stack/tecnologia da sua preferência.
+## Como rodar a aplicação:
 
-Caso surja alguma dúvida fique à vontade para perguntar ao seu recrutador(a), mas lembre-se, a ideia é avaliar seus conhecimentos, não existe certo ou errado. Fique à vontade para sugerir regras e comportamentos diferentes.
+Após a clonagem do repositório, execute os seguintes comandos:
 
-Você deverá criar um fork deste projeto e enviar o link do seu repositório por e-mail no momento da entrega.
+`cd <local_do_repo>`
 
-**OBS:** Para avaliarmos melhor o seu teste, sugerimos que **não utilize libs de componentes, formulários**, etc, no desenvolvimento dos exercícios. Não se preocupe, o teste é simples e não exigirá muito do seu tempo.
+`npm install` ou `yarn install`.
 
-Bora começar com o [primeiro exercício](1-EXERCISE/README.md)?
-
-## Lista de exercícios
-
-- [1: Tipografia e Cores](1-EXERCISE/README.md)
-
-- [2: Formulário de avaliação](2-EXERCISE/README.md)
-
-- [3: Arquitetura](3-EXERCISE/README.md)
-
-## Entrega
-
-Ao finalizar o teste, avise seu recrutador e ele irá marcar uma conversa técnica, onde apresentará os exercícios resolvidos, além de conversar sobre suas experiências. Lembrando que você deve enviar o link do seu repositório por e-mail.
-
-Além disso, se tiver projetos ou artigos publicados, coloque no markdown [delivery](DELIVERY.md), isso pode contar pontos na sua avaliação.
-
-### Hora de programar
-
-![lets code](https://media.giphy.com/media/E6jscXfv3AkWQ/giphy.gif)
+Após a instalação das dependências, execute `npm run dev` ou `yarn dev` e acesse o `localhost:3000` no seu navegador.
